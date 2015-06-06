@@ -49,6 +49,8 @@ class PlayState extends State {
 
 class Main extends luxe.Game {
 
+    var machine : States;
+
     override function config(config:luxe.AppConfig) {
 
         return config;
