@@ -1,0 +1,36 @@
+{
+
+  luxe:{
+    window: {
+      width:960,
+      height:640,
+      title:'empty',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'empty',
+    version : '0.0.1',
+    author : 'Jonathan Hirz',
+
+    app : {
+      name : 'empty',
+      package : 'com.jonathanhirz.empty'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
