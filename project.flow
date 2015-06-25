@@ -7,7 +7,14 @@
       title:'empty',
       fullscreen:false,
       resizable:true,
-      borderless:false
+      if : {
+        ios : {
+          borderless:true
+        },
+        "!ios": {
+          borderless:false
+        }
+      }
     }
   },
 
