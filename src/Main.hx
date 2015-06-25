@@ -1,52 +1,6 @@
 import luxe.Input;
 import luxe.States;
 
-class MenuState extends State {
-
-    public function new( _name:String ) {
-        super({ name:_name });
-    } //new
-
-    override function init() {
-
-
-    } //init
-
-    override function onenter<T>( _value:T ) {
-
-
-    } //onenter
-
-    override function onleave<T>( _value:T ) {
-
-
-    } //onleave
-
-} //MenuState
-
-class PlayState extends State {
-
-    public function new( _name:String ) {
-        super({ name:_name });
-    } //new
-
-    override function init() {
-
-
-    } //init
-
-    override function onenter<T>( _value:T ) {
-
-
-    } //onenter
-
-    override function onleave<T>( _value:T ) {
-
-
-    } //onleave
-
-} //PlayState
-
 class Main extends luxe.Game {
 
     override function config(config:luxe.AppConfig) {
@@ -87,7 +41,7 @@ class Main extends luxe.Game {
         Luxe.input.bind_key('down', Key.key_s);
         Luxe.input.bind_key('left', Key.left);
         Luxe.input.bind_key('left', Key.key_a);
-        Luxe.input.bind_key('attack', Key.space);
+        Luxe.input.bind_key('space', Key.space);
 
     } //connect_input
 
