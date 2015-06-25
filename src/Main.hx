@@ -3,6 +3,8 @@ import luxe.States;
 
 class Main extends luxe.Game {
 
+    var machine : States;
+
     override function config(config:luxe.AppConfig) {
 
         return config;
