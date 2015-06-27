@@ -21,4 +21,9 @@ class MenuState extends State {
 
     } //onleave
 
+    override function update(dt:Float) {
+
+
+    } //update
+
 } //MenuState

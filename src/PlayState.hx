@@ -21,4 +21,9 @@ class PlayState extends State {
 
     } //onleave
 
+    override function update(dt:Float) {
+
+
+    } //update
+
 } //PlayState
