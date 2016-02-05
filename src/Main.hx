@@ -1,3 +1,4 @@
+import states.*;
 import luxe.Input;
 import luxe.States;
 
@@ -18,7 +19,7 @@ class Main extends luxe.Game {
         machine.add(new MenuState('menu_state'));
         machine.add(new PlayState('play_state'));
         Luxe.on(init, function(_) {
-            machine.set('menu_state');
+            machine.set('play_state');
         });
 
     } //ready
@@ -48,6 +49,5 @@ class Main extends luxe.Game {
         Luxe.input.bind_key('space', Key.space);
 
     } //connect_input
-
 
 } //Main
