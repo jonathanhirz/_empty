@@ -1,7 +1,7 @@
 package states;
 import luxe.States;
 
-class PlayState extends State {
+class GameState extends State {
 
     public function new( _name:String ) {
         super({ name:_name });
@@ -27,4 +27,4 @@ class PlayState extends State {
 
     } //update
 
-} //PlayState
+} //GameState

@@ -17,9 +17,9 @@ class Main extends luxe.Game {
         connect_input();
         machine = new States({ name:'statemachine' });
         machine.add(new MenuState('menu_state'));
-        machine.add(new PlayState('play_state'));
+        machine.add(new GameState('game_state'));
         Luxe.on(init, function(_) {
-            machine.set('play_state');
+            machine.set('game_state');
         });
 
     } //ready
