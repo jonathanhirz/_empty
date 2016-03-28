@@ -30,6 +30,9 @@
     build : {
       dependencies : {
         luxe : '*',
+      },
+      hxcpp : {
+        flags : ['-nocolor']
       }
     },
 
