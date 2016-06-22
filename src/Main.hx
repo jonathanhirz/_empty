@@ -7,7 +7,7 @@ class Main extends luxe.Game {
 
     var machine : States;
 
-    override function config(config:luxe.GameConfig) {
+    override function config( config:luxe.GameConfig ) {
 
         if(config.user.window != null) {
             if(config.user.window.width != null) {
@@ -44,7 +44,7 @@ class Main extends luxe.Game {
 
     } //onkeyup
 
-    override function update(dt:Float) {
+    override function update( dt:Float ) {
 
     } //update
 
